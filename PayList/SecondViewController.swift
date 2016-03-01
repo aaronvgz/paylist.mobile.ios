@@ -9,17 +9,30 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
+        super.viewDidLoad();
+        
+        // Aaron : I wrote this for fun...
+        
+    }   
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBOutlet weak var BtnShowMessage: UIButton!
+    
+    
+    @IBAction func ShowMessage(sender: UIButton, forEvent event: UIEvent) {
+        
+        let alertController = UIAlertController(title: "Message", message: "Hello World!", preferredStyle: UIAlertControllerStyle.Alert);
+        
+        alertController.addAction(UIAlertAction(title: "Title", style: UIAlertActionStyle.Default, handler: nil));
+        
+        self.presentViewController(alertController, animated: true, completion: nil);
+    }
+    
+        
 }
-

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B71BC41C85893D0095B373 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B71BC31C85893D0095B373 /* ThirdViewController.swift */; };
+		36B71BC71C858F220095B373 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B71BC61C858F220095B373 /* HomeViewController.swift */; };
 		36F56E6B1C8454880046AC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F56E6A1C8454880046AC67 /* AppDelegate.swift */; };
 		36F56E6D1C8454880046AC67 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F56E6C1C8454880046AC67 /* FirstViewController.swift */; };
 		36F56E6F1C8454880046AC67 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F56E6E1C8454880046AC67 /* SecondViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36B71BC31C85893D0095B373 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		36B71BC61C858F220095B373 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		36F56E671C8454880046AC67 /* PayList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F56E6A1C8454880046AC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F56E6C1C8454880046AC67 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -99,13 +103,15 @@
 		36F56E691C8454880046AC67 /* PayList */ = {
 			isa = PBXGroup;
 			children = (
+				36F56E6E1C8454880046AC67 /* SecondViewController.swift */,
 				36F56E6A1C8454880046AC67 /* AppDelegate.swift */,
 				36F56E6C1C8454880046AC67 /* FirstViewController.swift */,
-				36F56E6E1C8454880046AC67 /* SecondViewController.swift */,
 				36F56E701C8454880046AC67 /* Main.storyboard */,
 				36F56E731C8454880046AC67 /* Assets.xcassets */,
 				36F56E751C8454880046AC67 /* LaunchScreen.storyboard */,
 				36F56E781C8454880046AC67 /* Info.plist */,
+				36B71BC31C85893D0095B373 /* ThirdViewController.swift */,
+				36B71BC61C858F220095B373 /* HomeViewController.swift */,
 			);
 			path = PayList;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B71BC71C858F220095B373 /* HomeViewController.swift in Sources */,
 				36F56E6F1C8454880046AC67 /* SecondViewController.swift in Sources */,
+				36B71BC41C85893D0095B373 /* ThirdViewController.swift in Sources */,
 				36F56E6B1C8454880046AC67 /* AppDelegate.swift in Sources */,
 				36F56E6D1C8454880046AC67 /* FirstViewController.swift in Sources */,
 			);
@@ -489,6 +497,7 @@
 				36F56E931C8454880046AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F56E941C8454880046AC67 /* Build configuration list for PBXNativeTarget "PayListTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				36F56E961C8454880046AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36F56E971C8454880046AC67 /* Build configuration list for PBXNativeTarget "PayListUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +515,7 @@
 				36F56E991C8454880046AC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
