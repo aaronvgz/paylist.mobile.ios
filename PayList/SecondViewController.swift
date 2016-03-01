@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
         
         let alertController = UIAlertController(title: "Message", message: "Hello World!", preferredStyle: UIAlertControllerStyle.Alert);
         
-        alertController.addAction(UIAlertAction(title: "Title", style: UIAlertActionStyle.Default, handler: nil));
+        alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil));
         
         self.presentViewController(alertController, animated: true, completion: nil);
     }
